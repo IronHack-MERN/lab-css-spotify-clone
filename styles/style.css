@@ -6,3 +6,38 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+  width: 100%;
+  color:  #1A1A1A;
+  font-size: 2rem;
+}
+
+.navbar-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+}
+
+.menu-navbar{
+  width: 40%;
+  display: flex;
+  justify-content: end;
+}
+
+li{
+  width: 25%;
+  list-style: none;
+  justify-content: end;
+  margin: 0 auto;
+}
+
+.img-logo{
+  width: 300px;
+}
+
+.main-content{
+  display: flex;
+  flex-direction: row;
+  background-color: aqua;
+}
