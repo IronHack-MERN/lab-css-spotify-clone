@@ -39,6 +39,8 @@ body{
   width: 100%;
   color:  #1A1A1A;
   font-size: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .navbar-container{
@@ -54,9 +56,7 @@ body{
 }
 
 li{
-  width: 25%;
   list-style: none;
-  justify-content: end;
   margin: 0 auto;
 }
 
@@ -88,7 +88,8 @@ li{
 }
 
 .subtitle-landing{
-  font-size: 2.5rem;
+  font-size: 2.8rem;
+  margin-top: 3rem;
 }
 
 .whats-spotify{
@@ -99,10 +100,9 @@ li{
 }
 
 .whats-spotify-article-1{
-  width: 30%;
   margin: 0 auto;
   text-align: center;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .whats-spotify-article-2{
@@ -126,12 +126,14 @@ li{
 
 .spotify-column h2{
   color: #00B172;
+  font-weight:bolder;
 }
 
 .spotify-column p{
   color: #1A1A1A;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  font-weight:200;
 }
 
 .whats-spotify-article-2 img{
@@ -140,4 +142,46 @@ li{
 
 .hr-green{
   border: 3px solid #00B172;;
+}
+
+.hr-white{
+  border: 3px solid white;
+  margin: 1rem 0 0;
+  width: 90%;
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  color: white;
+  background-color: #00B172;
+  background-image: url(../images/spotify-icon-white.png);
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: 200px;
+  padding: 7rem 5rem 5rem 10rem;
+  margin: 3rem;
+}
+
+.footer-header{
+  font-size: 3rem;
+}
+
+.footer-img{
+margin: 20px;  
+}
+
+.footer-article{
+  margin: 2rem 0 2rem 0;
+  padding: 2rem 0 2rem 0;
+}
+
+.footer-article p{
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.footer-img img{
+  max-width: 100%;
 }
